@@ -1,15 +1,30 @@
 ### cooper-vuepress
 
-.cache
-.temp
+# VuePress files
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
+docs/.vuepress/dist/
+
+# Dist files
+dist/
+lib/
 
 pids
 logsnop
 
-node_modules
+# Node modules
+node_modules/
 npm-debug.log
+
+# Test coverage files
 coverage/
 run
+
+# Log files
+*.log
+
+# Typescript build info
+*.tsbuildinfo
 
 .nyc_output
 .basementgit
