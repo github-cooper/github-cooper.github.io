@@ -1,0 +1,113 @@
+// VuePress 配置文件
+
+import { defineUserConfig } from 'vuepress'
+import { defaultTheme } from 'vuepress'
+
+import {
+  head,
+  navbarEn,
+  navbarZh,
+  sidebarEn,
+  sidebarZh,
+} from './configs/index.js'
+
+// const zhPrefix = '/locales/zh/' 
+
+export default defineUserConfig({
+  // set site base to default value
+  base: '/',
+  title: '',
+  description: '',
+
+  // extra tags in `<head>` 
+  head: head,
+
+  // site-level locales config
+  locales: {
+    // 键名是该语言所属的子路径, 作为特例，默认语言可以使用 '/' 作为其路径。
+    '/': {
+      lang: 'en-US',
+      title: 'Cooper Press',
+      // description: 'Vue-powered Static Site Generator',
+    },
+    '/zh/': {
+      lang: 'zh-CN',
+      title: 'Cooper Press',
+      // description: 'Vue 驱动的静态网站生成器',
+    },
+  },
+
+  // configure default theme
+  theme: defaultTheme({
+    logo: '/images/logo_transparent.png',
+    repo: 'https://github.com/cooperwang-github/cooperwang-github.github.io',
+    docsDir: 'docs',
+
+    // theme-level locales config
+    locales: {
+      /**
+       * English locale config
+       *
+       * As the default locale of @vuepress/theme-default is English,
+       * we don't need to set all of the locale fields
+       */
+      '/': {
+        // navbar config
+        navbar: navbarEn,
+        // sidebar config
+        sidebar: sidebarEn,
+        // page meta
+        editLinkText: 'Edit this page on GitHub',
+      },
+
+      /**
+       * Chinese locale config 
+       * path prefix: /locales/zh/
+       */
+      '/zh/': {
+        navbar: navbarZh,
+        selectLanguageName: '简体中文',
+        selectLanguageText: '选择语言',
+        selectLanguageAriaLabel: '选择语言',
+        // sidebar
+        sidebar: sidebarZh,
+        // page meta
+        editLinkText: '在 GitHub 上编辑此页',
+        lastUpdatedText: '上次更新',
+        contributorsText: '贡献者',
+        // custom containers
+        tip: '提示',
+        warning: '注意',
+        danger: '警告',
+        // 404 page
+        notFound: [
+          '这里什么都没有',
+          '我们怎么到这来了？',
+          '这是一个 404 页面',
+          '看起来我们进入了错误的链接',
+        ],
+        backToHome: '返回首页',
+        // a11y
+        openInNewWindow: '在新窗口打开',
+        toggleColorMode: '切换颜色模式',
+        toggleSidebar: '切换侧边栏',
+
+      },
+    },
+
+    // use plugins
+    // plugins: [
+    //   docsearchPlugin({
+    //     appId: '34YFD9IUQ2',
+    //     apiKey: '9a9058b8655746634e01071411c366b8',
+    //     indexName: 'vuepress',
+    //     searchParameters: {
+    //       facetFilters: ['tags:v2'],
+    //     },
+    //   })
+    // ]
+
+
+  }),
+
+})
