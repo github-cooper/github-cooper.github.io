@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as n,a as e,d as a}from"./app-5b072fc4.js";const o={},s=e("h1",{id:"tencent-docs",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#tencent-docs","aria-hidden":"true"},"#"),a(" Tencent Docs")],-1),r=[s];function d(_,i){return c(),n("div",null,r)}const l=t(o,[["render",d],["__file","tencent.html.vue"]]);export{l as default};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7298fb85","path":"/notes/tencent/tencent.html","title":"Tencent Docs","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701343521000,"contributors":[{"name":"cooperwang","email":"58845374+cooperwang-github@users.noreply.github.com","commits":1}]},"filePathRelative":"notes/tencent/tencent.md"}');export{e as data};

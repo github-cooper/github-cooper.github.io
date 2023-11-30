@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as n,a as e,d as a}from"./app-5b072fc4.js";const c={},r=e("h1",{id:"cooper-s-notion",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#cooper-s-notion","aria-hidden":"true"},"#"),a(" Cooper's Notion")],-1),s=[r];function i(_,d){return t(),n("div",null,s)}const l=o(c,[["render",i],["__file","notion.html.vue"]]);export{l as default};

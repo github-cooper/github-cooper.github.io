@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3084f36a","path":"/develop/backend/backend.html","title":"Back-end","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701343521000,"contributors":[{"name":"cooperwang","email":"58845374+cooperwang-github@users.noreply.github.com","commits":1}]},"filePathRelative":"develop/backend/backend.md"}');export{e as data};

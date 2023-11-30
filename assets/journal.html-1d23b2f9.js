@@ -1,0 +1,1 @@
+import{_ as a,o,c as r,a as e,d as t}from"./app-5b072fc4.js";const n={},c=e("h1",{id:"journal",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#journal","aria-hidden":"true"},"#"),t(" Journal")],-1),s=[c];function _(l,d){return o(),r("div",null,s)}const u=a(n,[["render",_],["__file","journal.html.vue"]]);export{u as default};

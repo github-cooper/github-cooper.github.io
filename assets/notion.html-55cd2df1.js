@@ -1,0 +1,1 @@
+const o=JSON.parse(`{"key":"v-7d480cf1","path":"/notes/notion/notion.html","title":"Cooper's Notion","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701343521000,"contributors":[{"name":"cooperwang","email":"58845374+cooperwang-github@users.noreply.github.com","commits":1}]},"filePathRelative":"notes/notion/notion.md"}`);export{o as data};

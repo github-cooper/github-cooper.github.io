@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-62e849c4","path":"/journal/reading/novel/novel.html","title":"Novel","lang":"en-US","frontmatter":{"title":"Novel"},"headers":[],"git":{"updatedTime":1701343521000,"contributors":[{"name":"cooperwang","email":"58845374+cooperwang-github@users.noreply.github.com","commits":1}]},"filePathRelative":"journal/reading/novel/novel.md"}');export{e as data};

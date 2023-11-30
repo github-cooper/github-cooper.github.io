@@ -1,0 +1,1 @@
+import{_ as t,o as n,c as o,a as e,d as r}from"./app-5b072fc4.js";const a={},c=e("h1",{id:"front-end",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#front-end","aria-hidden":"true"},"#"),r(" Front-end")],-1),d=[c];function s(_,f){return n(),o("div",null,d)}const h=t(a,[["render",s],["__file","frontend.html.vue"]]);export{h as default};

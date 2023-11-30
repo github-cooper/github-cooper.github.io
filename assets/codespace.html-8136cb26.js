@@ -1,0 +1,1 @@
+import{_ as c,o as a,c as o,a as e,d as s}from"./app-5b072fc4.js";const t={},d=e("h1",{id:"code-space",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#code-space","aria-hidden":"true"},"#"),s(" Code Space")],-1),r=[d];function n(_,i){return a(),o("div",null,r)}const l=c(t,[["render",n],["__file","codespace.html.vue"]]);export{l as default};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7318ed41","path":"/develop/codespace/codespace.html","title":"Code Space","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701343521000,"contributors":[{"name":"cooperwang","email":"58845374+cooperwang-github@users.noreply.github.com","commits":1}]},"filePathRelative":"develop/codespace/codespace.md"}');export{e as data};

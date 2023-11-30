@@ -1,0 +1,1 @@
+const o=JSON.parse('{"key":"v-c3306c06","path":"/develop/tools/tools.html","title":"Tools","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701343521000,"contributors":[{"name":"cooperwang","email":"58845374+cooperwang-github@users.noreply.github.com","commits":1}]},"filePathRelative":"develop/tools/tools.md"}');export{o as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-30a18549","path":"/guide/guide.html","title":"Getting Started with VuePress","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701343521000,"contributors":[{"name":"cooperwang","email":"58845374+cooperwang-github@users.noreply.github.com","commits":1}]},"filePathRelative":"guide/guide.md"}');export{e as data};

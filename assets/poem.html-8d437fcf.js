@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,a as e,d as c}from"./app-5b072fc4.js";const r={},s=e("h1",{id:"poem",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#poem","aria-hidden":"true"},"#"),c(" Poem")],-1),n=[s];function _(d,i){return t(),a("div",null,n)}const h=o(r,[["render",_],["__file","poem.html.vue"]]);export{h as default};

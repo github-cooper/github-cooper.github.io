@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-591ad0fe","path":"/zh/journal/music/music.html","title":"Music","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1701343619000,"contributors":[{"name":"cooperwang","email":"58845374+cooperwang-github@users.noreply.github.com","commits":1}]},"filePathRelative":"zh/journal/music/music.md"}');export{e as data};
