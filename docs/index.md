@@ -3,9 +3,11 @@
 layout: home
 
 hero:
-  name: "cooper-press"
-  text: "Cooper's VitePress Site"
+  name: "Cooper Press"
+  text: "Cooper Press Build with VitePress"
   tagline: My great project tagline
+  img:
+    src: https://vitepress.dev/vitepress-logo-mini.svg
   actions:
     - theme: brand
       text: Markdown Examples
